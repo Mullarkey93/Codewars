@@ -23,4 +23,5 @@ function accum(s) {
     }
     return word;
 }
+
 console.log(accum("ZpglnRxqenU"));
