@@ -9,5 +9,6 @@ public class KataTest {
     public void exampleTests() {
         assertEquals(8, Kata.dontGiveMeFive(1,9));
         assertEquals(12, Kata.dontGiveMeFive(4,17));
+
     }
 }

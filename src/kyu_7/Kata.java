@@ -10,12 +10,10 @@ package kyu_7;
      The result may contain fives. ;-)
      The start number will always be smaller than the end number. Both numbers can be also negative!
  */
-public class Kata
-{
-    public static int dontGiveMeFive(int start, int end)
-    {
+public class Kata {
+    public static int dontGiveMeFive(int start, int end) {
         int count = 0;
-        while(start <= end){
+        while (start <= end) {
             count += ("" + start).contains("5") ? 0 : 1;
             start++;
         }
